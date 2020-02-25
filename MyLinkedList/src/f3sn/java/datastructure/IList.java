@@ -13,6 +13,8 @@ public interface IList<E> {
     public E remove(E objE);
 
     public boolean contains(E objE);
+    public boolean update(E objE);
+    public boolean isEmty();
 
     public E peekFirst();
 
